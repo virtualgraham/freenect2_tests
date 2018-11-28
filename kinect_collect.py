@@ -24,9 +24,9 @@ except:
 print("Packet pipeline:", type(pipeline).__name__)
 
 
-pathlib.Path('/Users/user/Desktop/sandbox/imgs/color/').mkdir(parents=True, exist_ok=True) 
-pathlib.Path('/Users/user/Desktop/sandbox/imgs/normal/').mkdir(parents=True, exist_ok=True) 
-pathlib.Path('/Users/user/Desktop/sandbox/imgs/depth/').mkdir(parents=True, exist_ok=True) 
+pathlib.Path('/Users/user/sandbox/imgs/color/').mkdir(parents=True, exist_ok=True) 
+pathlib.Path('/Users/user/sandbox/imgs/normal/').mkdir(parents=True, exist_ok=True) 
+pathlib.Path('/Users/user/sandbox/imgs/depth/').mkdir(parents=True, exist_ok=True) 
 
 enable_rgb = True
 enable_depth = True
